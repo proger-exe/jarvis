@@ -1,0 +1,34 @@
+[audio]
+source = ""
+sample_rate = 16000
+channels = 1
+chunk_duration_ms = 30
+vad_aggressiveness = 2
+silence_ms = 800
+min_speech_ms = 400
+
+[speech]
+language = "ru"
+model_path = "data/models/vosk-ru"
+
+[tts]
+backend = "piper"
+voice_model = "ru_RU-irina-medium"
+voice_dir = "data/voices/piper"
+player = "paplay"
+length_scale = 1.0
+noise_scale = 0.667
+noise_w_scale = 0.8
+normalize_audio = true
+volume = 1.0
+use_cuda = false
+spd_say_engine = "spd-say"
+spd_say_voice = "ru"
+spd_say_rate = -20
+
+[control]
+socket_path = "/tmp/jarvis.sock"
+
+[ui]
+tray_enabled = true
+notify_on_error = true

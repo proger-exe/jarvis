@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jarvis-assistant"
+version = "0.1.0"
+description = "Offline Russian voice assistant for Linux desktops"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "piper-tts>=1.4.2",
+  "vosk>=0.3.45",
+  "webrtcvad>=2.0.10",
+]
+
+[tool.setuptools.packages.find]
+include = ["jarvis*"]

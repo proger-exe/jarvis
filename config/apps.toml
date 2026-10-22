@@ -1,0 +1,45 @@
+[[app]]
+id = "browser"
+phrases = ["открой браузер", "запусти браузер", "открой firefox"]
+action = "focus_or_launch"
+command = ["firefox"]
+process_names = ["firefox", "navigator.firefox"]
+response = "Открываю браузер."
+
+[[app]]
+id = "code"
+phrases = ["открой код", "открой vscode", "запусти visual studio code"]
+action = "focus_or_launch"
+command = ["code"]
+process_names = ["code", "code.code"]
+response = "Открываю редактор."
+
+[[app]]
+id = "calculator"
+phrases = ["открой калькулятор", "запусти калькулятор"]
+action = "focus_or_launch"
+command = ["gnome-calculator"]
+process_names = ["gnome-calculator", "gnome-calculator.gnome-calculator"]
+response = "Открываю калькулятор."
+
+[[app]]
+id = "terminal"
+phrases = ["открой терминал", "запусти терминал"]
+action = "focus_or_launch"
+command = ["gnome-terminal"]
+process_names = ["gnome-terminal", "gnome-terminal-server.gnome-terminal-server"]
+response = "Открываю терминал."
+
+[[app]]
+id = "files"
+phrases = ["открой файлы", "открой файловый менеджер", "открой проводник"]
+action = "focus_or_launch"
+command = ["thunar"]
+process_names = ["thunar", "thunar.thunar"]
+response = "Открываю файловый менеджер."
+
+[[app]]
+id = "capabilities"
+phrases = ["что ты умеешь", "какие у тебя команды", "помощь"]
+action = "speak"
+response = "Я могу открыть браузер, код, калькулятор, терминал и файловый менеджер."
