@@ -1,7 +1,7 @@
 # Jarvis
 
 <!-- portfolio-card:start -->
-[![Jarvis — Слышит и отвечает. Работает локально.](docs/portfolio/card.png)](docs/portfolio/card.svg)
+[![sh3lby.code — нейтральная обложка](docs/portfolio/card.png)](docs/portfolio/card.svg)
 <!-- portfolio-card:end -->
 
 Локальный офлайн-ассистент для Linux. Он постоянно слушает микрофон, распознаёт русские команды, отвечает голосом через `Piper` и открывает только заранее разрешённые приложения.
